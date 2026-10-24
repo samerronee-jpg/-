@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#FAF7F2">
+  <meta name="description" content="تتشرف عائلة المرحوم حسين المرعي والسيد محمد قناطري بدعوتكم لحضور حفل زفاف نجليهما: صدام حسين المرعي وكريمة السيد محمد قناطري — الجمعة 30 أكتوبر 2026">
+  
+  <!-- Open Graph / وسوم المشاركة في واتساب وشبكات التواصل -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="دعوة زفاف: صدام حسين المرعي & كريمة السيد محمد قناطري">
+  <meta property="og:description" content="تتشرف عائلة المرحوم حسين المرعي والسيد محمد قناطري بدعوتكم لمشاركتهم فرحة العمر يوم الجمعة 30 أكتوبر 2026">
+  <meta property="og:image" content="assets/icons/og-preview.png">
+  <meta property="og:locale" content="ar_AR">
+
+  <title>دعوة زفاف | صدام حسين المرعي & كريمة السيد محمد قناطري</title>
+
+  <!-- ملفات التنسيق الفاخرة -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/envelope.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <!-- إطار زخرفي خارجي ثابت يعزز الفخامة -->
+  <div class="page-ornamental-frame" aria-hidden="true"></div>
+
+  <!-- =========================================================================
+       المرحلة الأولى: شاشة البداية والظرف الرقمي التفاعلي الملكي
+       ========================================================================= -->
+  <div class="envelope-overlay" id="envelope-overlay" role="dialog" aria-modal="true" aria-label="شاشة افتتاح دعوة الزفاف">
+    <div class="envelope-wrapper">
+      
+      <div class="envelope-intro-header">
+        <div class="envelope-basmala">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+        <div class="envelope-subheading">دعوة لحضور فرحة العمر</div>
+      </div>
+
+      <!-- جسم الظرف المجسم 3D -->
+      <div class="envelope-box" id="envelope-box" title="اضغط لفتح الدعوة">
+        <!-- طية الظرف العلوية -->
+        <div class="envelope-flap" id="envelope-flap"></div>
+
+        <!-- بطاقة الدعوة الداخلية التي تنزلق للأعلى -->
+        <div class="envelope-letter">
+          <div class="letter-monogram">﷽</div>
+          <div class="letter-title">فرحة تجمع العائلتين</div>
+          <div class="letter-groom">صدام حسين المرعي</div>
+          <div class="letter-tap-hint">انقر لفتح كامل تفاصيل الدعوة المباركة</div>
+        </div>
+
+        <!-- الجيب السفلي للظرف -->
+        <div class="envelope-pocket"></div>
+
+        <!-- ختم الشمع الذهبي -->
+        <div class="wax-seal" id="wax-seal" role="button" aria-label="كسر الختم وفتح الدعوة">
+          <div class="wax-seal-inner">فرحتنا</div>
+        </div>
+      </div>
+
+      <!-- زر فتح الدعوة الرئيسي -->
+      <button class="open-invitation-btn" id="open-invitation-btn">
+        <span>افتح دعوتك</span>
+        <svg viewBox="0 0 24 24">
+          <path d="M19 4H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-7 4.5L5 8V6l7 4.5L19 6v2z"/>
+        </svg>
+      </button>
+
+      <div class="envelope-footer-note">بالمحبة والمودة نتشرف بحضوركم الكريم</div>
+
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       المحتوى الرئيسي لدعوة الزفاف المباركة
+       ========================================================================= -->
+  <main class="invitation-container" id="invitation-main">
+
+    <!-- رأسية الدعوة -->
+    <header class="invitation-header">
+      <div class="header-basmala">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+      <div class="header-title-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:16px;height:16px;">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+        </svg>
+        <span>دعوة لحضور فرحة العمر</span>
+      </div>
+    </header>
+
+    <!-- المرحلة الثانية: قسم الآية القرآنية الكريمة -->
+    <section class="luxury-card quran-section" aria-label="الآية القرآنية">
+      <!-- زوايا زخرفية ذهبية -->
+      <svg class="corner-ornament corner-top-right" viewBox="0 0 40 40">
+        <path d="M0,0 L40,0 L40,8 L8,8 L8,40 L0,40 Z" fill="url(#goldGradient)"/>
+        <defs><linearGradient id="goldGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#C59A45"/><stop offset="100%" stop-color="#8F6922"/></linearGradient></defs>
+      </svg>
+      <svg class="corner-ornament corner-top-left" viewBox="0 0 40 40">
+        <path d="M0,0 L40,0 L40,8 L8,8 L8,40 L0,40 Z" fill="url(#goldGradient)"/>
+      </svg>
+      <svg class="corner-ornament corner-bottom-right" viewBox="0 0 40 40">
+        <path d="M0,0 L40,0 L40,8 L8,8 L8,40 L0,40 Z" fill="url(#goldGradient)"/>
+      </svg>
+      <svg class="corner-ornament corner-bottom-left" viewBox="0 0 40 40">
+        <path d="M0,0 L40,0 L40,8 L8,8 L8,40 L0,40 Z" fill="url(#goldGradient)"/>
+      </svg>
+
+      <!-- رمز قوس إسلامي وزخرفة علوية -->
+      <div class="quran-arch-decor" aria-hidden="true">
+        <svg viewBox="0 0 100 40" fill="none" stroke="#C59A45" stroke-width="1.5">
+          <path d="M10 35 C30 10, 70 10, 90 35 M30 35 C40 20, 60 20, 70 35 M45 15 L50 5 L55 15"/>
+        </svg>
+      </div>
+
+      <blockquote class="quran-verse-text">
+        ﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ ﴾
+      </blockquote>
+
+      <div class="quran-surah-info">سورة الروم — الآية ٢١</div>
+    </section>
+
+    <!-- المرحلة الثالثة: أصحاب الدعوة والنص الرسمي للدعوة -->
+    <section class="luxury-card hosts-section" aria-label="أصحاب الدعوة الكرام">
+      <div class="hosts-intro">تتشرف</div>
+      <div class="hosts-names-box">
+        <div class="host-name-primary">عائلة المرحوم حسين المرعي</div>
+        <div class="host-conjunction">والسيد</div>
+        <div class="host-name-primary">محمد قناطري</div>
+      </div>
+
+      <div class="arabesque-divider" aria-hidden="true">
+        <span class="line"></span>
+        <span class="symbol">❖</span>
+        <span class="line"></span>
+      </div>
+
+      <div class="hosts-invitation-text">
+        <p>بدعوتكم لمشاركتهم فرحة زفاف نجليهما، وذلك بحضوركم الكريم، ومشاركتكم هذه المناسبة المباركة، وإحياء فرحة تجمع العائلتين على المحبة والمودة.</p>
+      </div>
+    </section>
+
+    <!-- المحور البصري الأساسي: بطاقة العروسين الفاخرة -->
+    <section class="couple-focal-card" aria-label="العروسان">
+      <div class="couple-ribbon-tag">فرحة العمر</div>
+
+      <div class="couple-names-grid">
+        <!-- العريس -->
+        <div class="couple-item">
+          <span class="couple-role">العريس</span>
+          <h2 class="couple-name groom-name">صدام حسين المرعي</h2>
+        </div>
+
+        <!-- فاصل ملكي بين الاسمين -->
+        <div class="couple-divider" aria-hidden="true">
+          <span class="line"></span>
+          <div class="couple-heart-symbol">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+          </div>
+          <span class="line"></span>
+        </div>
+
+        <!-- العروس -->
+        <div class="couple-item">
+          <span class="couple-role">العروس</span>
+          <h2 class="couple-name bride-name">كريمة السيد محمد قناطري</h2>
+        </div>
+      </div>
+
+      <div class="couple-blessing-closing">
+        بحضوركم نزداد سرورًا، وتكتمل فرحتنا
+      </div>
+    </section>
+
+    <!-- المرحلة الرابعة: تفاصيل المناسبة والترتيبات -->
+    <section class="event-details-grid" aria-label="تفاصيل وترتيبات الحفل">
+      
+      <!-- بطاقة اليوم والتاريخ -->
+      <div class="detail-item-card">
+        <div class="detail-icon-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+        </div>
+        <div class="detail-card-title">موعد المناسبة</div>
+        <div class="detail-card-highlight">الجمعة 30 أكتوبر 2026</div>
+        <div class="detail-card-subtitle">ليلة مباركة تجمع الأحبة</div>
+      </div>
+
+      <!-- بطاقة موعد ونقطة الانطلاق -->
+      <div class="detail-item-card">
+        <div class="detail-icon-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+        </div>
+        <div class="detail-card-title">موعد ونقطة الانطلاق</div>
+        <div class="detail-card-highlight">الساعة 5:00 عصرًا</div>
+        <div class="detail-card-subtitle">الانطلاق من منزل العريس</div>
+      </div>
+
+      <!-- بطاقة ترتيبات الصالات -->
+      <div class="detail-item-card">
+        <div class="detail-icon-circle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+        </div>
+        <div class="detail-card-title">ترتيبات الاستقبال</div>
+        <div class="detail-card-highlight">صالات مخصصة ومستقلة</div>
+        <div class="detail-card-subtitle">صالة مخصصة للرجال • صالة مخصصة للنساء</div>
+      </div>
+
+    </section>
+
+    <!-- المرحلة الخامسة: العد التنازلي التفاعلي -->
+    <section class="countdown-card" aria-label="العد التنازلي حتى موعد الانطلاق">
+      <h3 class="countdown-title">العد التنازلي لموعد الانطلاق</h3>
+      <div class="countdown-subtitle">الجمعة 30 أكتوبر 2026 — الساعة 5:00 عصرًا</div>
+
+      <!-- شبكة الصناديق التنازلية -->
+      <div class="countdown-grid" id="countdown-grid">
+        <!-- الأيام -->
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-days">00</span>
+          <span class="countdown-label">يوم</span>
+        </div>
+        <span class="countdown-separator">:</span>
+
+        <!-- الساعات -->
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-hours">00</span>
+          <span class="countdown-label">ساعة</span>
+        </div>
+        <span class="countdown-separator">:</span>
+
+        <!-- الدقائق -->
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-minutes">00</span>
+          <span class="countdown-label">دقيقة</span>
+        </div>
+        <span class="countdown-separator">:</span>
+
+        <!-- الثواني -->
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-seconds">00</span>
+          <span class="countdown-label">ثانية</span>
+        </div>
+      </div>
+
+      <!-- تنبيه انتهاء العداد بعد بدء المناسبة -->
+      <div class="countdown-expired-alert" id="countdown-expired-alert"></div>
+    </section>
+
+    <!-- المرحلة السادسة: مكان المناسبة والخرائط الجغرافية -->
+    <section class="luxury-card location-card" aria-label="موقع المناسبة">
+      <div class="detail-icon-circle" style="margin: 0 auto 1.25rem auto;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+      </div>
+
+      <div class="detail-card-title" style="margin-bottom:0.2rem;">مكان إقامة الفرح</div>
+      <h3 class="location-venue-name">صالة ليالي النجوم</h3>
+      <div class="location-address">غربي كفر عويد، شمال طريق الرام</div>
+
+      <!-- زر الخرائط القابل للتفعيل من ملف الإعدادات -->
+      <div class="maps-action-wrapper">
+        <a id="maps-action-btn" class="maps-btn btn-inactive" role="button">
+          <!-- محتوى الزر يُحدَّث تلقائياً بواسطة js/app.js بناءً على config.js -->
+        </a>
+        <div class="maps-hint-note" id="maps-hint-note"></div>
+      </div>
+    </section>
+
+    <!-- المرحلة السابعة: ملاحظة الخصوصية ومنع التصوير -->
+    <section class="privacy-notice-card" aria-label="تنبيه الخصوصية">
+      <div class="privacy-icon-box">
+        <!-- أيقونة منع التصوير -->
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path>
+          <circle cx="12" cy="13" r="3"></circle>
+          <line x1="2" y1="2" x2="22" y2="22"></line>
+        </svg>
+      </div>
+      <div class="privacy-content">
+        <h4>ملاحظة هامة وحرص على الخصوصية</h4>
+        <p>نرجو من ضيوفنا الكرام الالتزام بعدم التصوير داخل صالة النساء، حفاظًا على خصوصية الحاضرات وراحة الجميع.</p>
+      </div>
+    </section>
+
+    <!-- المرحلة الثامنة: نموذج تأكيد الحضور (RSVP) -->
+    <section class="luxury-card rsvp-section-card" id="rsvp-section" aria-label="تأكيد الحضور">
+      <div class="rsvp-header">
+        <h3 class="rsvp-title">تأكيد الحضور الكريم</h3>
+        <p class="rsvp-subtitle">يسعدنا ويشرفنا تأكيد حضوركم الكريم لمشاركتنا فرحة العمر</p>
+      </div>
+
+      <!-- النموذج التفاعلي -->
+      <form class="rsvp-form" id="rsvp-form" novalidate>
+        
+        <!-- اسم المدعو -->
+        <div class="form-group">
+          <label class="form-label" for="guest-name">اسم المدعو الكريم *</label>
+          <input 
+            type="text" 
+            id="guest-name" 
+            name="guestName" 
+            class="form-input" 
+            placeholder="الاسم الثلاثي أو اللقب الكريم" 
+            required
+            autocomplete="name"
+          >
+          <div class="input-error-message" id="name-error"></div>
+        </div>
+
+        <!-- حالة الحضور -->
+        <div class="form-group">
+          <label class="form-label">حالة الحضور المبارك *</label>
+          <div class="attendance-choice-group">
+            <label class="attendance-radio-label selected">
+              <input type="radio" name="attendance-status" value="attending" checked>
+              <span>سأحضر بكل سرور</span>
+            </label>
+            <label class="attendance-radio-label">
+              <input type="radio" name="attendance-status" value="declined">
+              <span>أعتذر عن الحضور</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- عدد المرافقين (يظهر فقط عند الحضور) -->
+        <div class="form-group companions-field-wrapper visible" id="companions-wrapper">
+          <label class="form-label" for="companions-count">عدد المرافقين الكرام</label>
+          <input 
+            type="number" 
+            id="companions-count" 
+            name="companionsCount" 
+            class="form-input" 
+            value="0" 
+            min="0" 
+            max="15" 
+            step="1"
+          >
+          <div class="input-error-message" id="companions-error"></div>
+        </div>
+
+        <!-- زر إرسال الرد -->
+        <button type="submit" class="submit-rsvp-btn" id="submit-rsvp-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:20px;height:20px;">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+          <span>إرسال تأكيد الحضور</span>
+        </button>
+
+        <!-- صندوق الشفافية في حال عدم توفر خادم خلفي، مع إمكانية الإرسال عبر واتساب -->
+        <div class="backend-notice-box" id="backend-notice" style="display:none;">
+          <p><strong>تنبيه توضيحي:</strong> تم استلام بياناتكم! نظراً لعدم ربط قاعدة بيانات سحابية خارجية حتى الآن، يمكنك تأكيد إرسال الرد مباشرة لأصحاب الفرح عبر واتساب بنقرة واحدة أدناه:</p>
+          <a id="direct-whatsapp-send-btn" class="direct-whatsapp-send-btn" href="#">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/>
+            </svg>
+            <span>إرسال الرد فوراً عبر WhatsApp</span>
+          </a>
+        </div>
+
+      </form>
+
+      <!-- رسالة الشكر الرسمية بعد تأكيد الرد بنجاح -->
+      <div class="rsvp-thank-you-box" id="rsvp-thank-you-box" role="alert">
+        <div class="thank-you-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:34px;height:34px;">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <h4 class="thank-you-title" id="thank-you-title">شكرًا لمشاركتنا فرحتنا</h4>
+        <p class="thank-you-body" id="thank-you-body">
+          نسأل الله أن يديم عليكم الأفراح والمسرات، وأن يجمعنا وإياكم دائمًا على الخير والمحبة.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- شريط الإجراءات السريعة (المشاركة، التقويم، نسخ الرابط، إعادة فتح الظرف) -->
+    <section class="quick-actions-bar" aria-label="خيارات المشاركة والتقويم">
+      
+      <!-- إضافة إلى التقويم -->
+      <button class="action-pill-btn" id="add-to-calendar-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+          <line x1="12" y1="14" x2="12" y2="18"></line>
+          <line x1="10" y1="16" x2="14" y2="16"></line>
+        </svg>
+        <span>إضافة إلى التقويم</span>
+      </button>
+
+      <!-- مشاركة عبر واتساب -->
+      <button class="action-pill-btn" id="share-whatsapp-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/>
+        </svg>
+        <span>مشاركة الدعوة</span>
+      </button>
+
+      <!-- نسخ الرابط -->
+      <button class="action-pill-btn" id="copy-link-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+        </svg>
+        <span>نسخ رابط الدعوة</span>
+      </button>
+
+      <!-- إعادة فتح الظرف -->
+      <button class="action-pill-btn" id="reopen-envelope-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path>
+          <path d="M21 3v5h-5"></path>
+          <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path>
+          <path d="M8 16H3v5"></path>
+        </svg>
+        <span>إعادة فتح الدعوة</span>
+      </button>
+
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer class="invitation-footer">
+      <div class="footer-blessing">بارك الله لهما وبارك عليهما وجمع بينهما في خير</div>
+      <p>دامت دياركم عامرة بالأفراح والمسرات</p>
+    </footer>
+
+  </main>
+
+  <!-- =========================================================================
+       الأزرار العائمة والإشعارات
+       ========================================================================= -->
+  <aside class="floating-controls" aria-label="أدوات مساعدة">
+    <!-- زر التحكم بالصوت والنغمة الاحتفالية -->
+    <button class="floating-btn" id="sound-toggle-btn" title="تشغيل نغمة ترحيبية" aria-label="تشغيل نغمة ترحيبية">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+        <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+      </svg>
+    </button>
+
+    <!-- زر التمرير إلى الأعلى -->
+    <button class="floating-btn" id="scroll-top-btn" title="العودة للأعلى" aria-label="العودة للأعلى">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+  </aside>
+
+  <!-- إشعار التوست المنبثق -->
+  <div class="toast-notification" id="toast-notification" role="status">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <span id="toast-message">تم نسخ الرابط بنجاح!</span>
+  </div>
+
+  <!-- البرنامج النصي الرئيسي كـ ES Module -->
+  <script type="module" src="js/app.js"></script>
+
+</body>
+</html>
